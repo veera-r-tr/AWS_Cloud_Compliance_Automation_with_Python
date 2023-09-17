@@ -1,0 +1,39 @@
+_-Technical Stack-_
+
+         Cloud Platform: Amazon Web Services (AWS)
+
+         Programming Language: Python
+
+         Automation and Orchestration: AWS Lambda, Amazon CloudWatch Events
+
+         Monitoring and Alerting: AWS CloudWatch
+
+         Scripting and Automation: Python Scripting
+
+         Version Control: Git and GitHub
+
+         Documentation: Markdown for README and project documentation
+
+_-Technologies and Resources Used-_
+
+         AWS Lambda: AWS Lambda is a serverless computing service that allows us to run Python code in response to specific events. In our project, Lambda functions are used to automate compliance tasks and respond to events like the creation of EBS volumes.
+
+         Amazon CloudWatch: Amazon CloudWatch is used for real-time monitoring and alerting of AWS resources. It provides insights into resource performance and triggers actions through CloudWatch Events.
+
+         CloudWatch Events: CloudWatch Events is a service that enables us to respond to changes in AWS resources in real-time. It is the core component that triggers our Lambda functions when specific events occur.
+
+         Python: Python is the primary programming language used to develop the automation scripts. Python offers rich libraries and SDKs for interacting with AWS services.
+
+         Git and GitHub: Git is used for version control, allowing the team to collaborate on code development. GitHub serves as the code repository, enabling version tracking, issue management, and collaboration.
+
+         Markdown: Markdown is used for creating clear and structured documentation, including the README file that provides project details and instructions for users and contributors.
+
+         AWS Resources: The project interacts with various AWS resources, including Amazon Elastic Block Store (EBS) volumes, which are monitored, analyzed, and converted from GP2 to GP3 type based on policies.
+
+         Development Environment: The project is developed and tested in a development environment that includes IDEs or code editors suitable for Python development.
+
+         AWS IAM (Identity and Access Management): IAM roles and policies are used to grant the necessary permissions to Lambda functions for resource management.
+
+         AWS CloudFormation (optional): CloudFormation templates may be used for infrastructure as code (IaC) to define and provision AWS resources.
+
+This technical stack and the associated technologies and resources form the foundation of the "AWS Cloud Compliance Automation with Python" project, enabling the automation of compliance tasks, real-time monitoring, and resource governance within the AWS environment.
